@@ -1,0 +1,16 @@
+{
+  "pageLoadTimeout": 100000,
+  "includeShadowDom": true,
+  "modifyObstructiveCode": false,
+  "responseTimeout": 60000,
+  "chromeWebSecurity": false,
+  "numTestKeptInMemory": 0,
+  "waitForAnimations": true,
+  "defaultCommandTimeout": 100000,
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  },
+  "retries":2,
+  "videoCompression": 15
+}
